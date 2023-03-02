@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" class="motion-safe:scroll-smooth">
+<head>
+	<meta charset="utf-8">
+	<title>{{#if title}}{{title}}{{else}}Static Starter - A HTML/CSS Static site starting point{{/if}}</title>
+
+	<meta name="description" content="{{#if pageDescription}}{{pageDescription}}{{else}}Speed up your development with a complete and scalable gulpjs based build system that scaffolds the project for you.{{/if}}"/>
+	<meta name="author" content="Roy Barber"/>
+	<meta name="copyright" content="Copyright Roy Barber {{ @year }}. All Rights Reserved."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:site_name" content="Static Starter"/>
+	<meta property="og:title" content="{{#if pageTitle}}{{pageTitle}}{{else}}Static Starter - A HTML/CSS Static site starting point{{/if}}"/>
+	<meta property="og:description" content="{{#if pageDescription}}{{pageDescription}}{{else}}Speed up your development with a complete and scalable gulpjs based build system that scaffolds the project for you.{{/if}}"/>
+	<meta property="og:url" content="{{#if pageUrl}}{{pageUrl}}{{else}}/{{/if}}"/>
+	<meta property="og:image" content="/share.png"/>
+
+	<link rel="icon" href="/assets/favicon.ico" sizes="any">
+	<link rel="icon" href="/assets//icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/assets/icon.png">
+
+	<!-- Web fonts: Lato: -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+
+	<link rel="manifest" href="/assets/site.webmanifest">
+	<meta name="theme-color" content="#fafafa">
+
+</head>
+<body class="antialiased selection:bg-selection bg-white dark:bg-gray-900 relative">
+
+	<a class="sr-only focus:not-sr-only" href="#content">Skip to content</a>
+	
+	{{> layout/header }}
+
+	{{#block "body"}}{{/block}}
+
+	{{> layout/footer }}
+	
+	<!-- START: DEV ONLY - Shows the current CSS breakpoint-->
+	<div class="breakpoint"></div>
+	<div class="grid-visual hidden"></div>
+	<!-- END: DEV ONLY -->
+	
+	<!-- Browsers with ES module support load this file. -->
+	<script type="module" src="/assets/js/index.js"></script>
+
+
+	<div id="svgcontainer"></div>
+</body>
+</html>

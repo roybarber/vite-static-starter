@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"baseUrl": "."
+	},
+	"vueCompilerOptions": {
+		"experimentalDisableTemplateSupport": true
+	}
+}

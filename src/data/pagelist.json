@@ -1,0 +1,403 @@
+[
+	{
+		"title": "Home page",
+		"pages": [
+			{
+				"title": "Standard",
+				"href": "/pages/home/",
+				"status": "DONE"
+			},
+			{
+				"title": "Compact Hero",
+				"href": "/pages/home/compact.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Landing Pages",
+		"pages": [
+			{
+				"title": "Our Mission",
+				"href": "/pages/content/",
+				"status": "DONE"
+			},
+			{
+				"title": "Our Impact",
+				"href": "/pages/content/impact.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses & training",
+				"href": "/pages/landing-pages/courses-training.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Instructor Training",
+				"href": "/pages/landing-pages/instructor-training.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Why Choose Our Training",
+				"href": "/pages/landing-pages/why-choose-our-training.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Workplace Consultancy",
+				"href": "/pages/landing-pages/workplace-consultancy.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Meet the team",
+		"pages": [
+			{
+				"title": "Meet our leadership team",
+				"href": "/pages/meet-team/leadership-team.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Meet our executive team",
+				"href": "/pages/meet-team/executive-team.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Team member - Simon Blake",
+				"href": "/pages/meet-team/team-member.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Careers",
+		"pages": [
+			{
+				"title": "Careers Landing",
+				"href": "/pages/careers/landing.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Job Detail page",
+				"href": "/pages/careers/detail.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Application form",
+				"href": "/pages/careers/application.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Thank you",
+				"href": "/pages/careers/thankyou.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Contact Us",
+		"pages": [
+			{
+				"title": "Contact us landing",
+				"href": "/pages/contact-us/contact-landing.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Contact us form",
+				"href": "/pages/contact-us/contact-form.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Thank you",
+				"href": "/pages/contact-us/thankyou.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "News",
+		"pages": [
+			{
+				"title": "News Article",
+				"href": "/pages/news/article.html",
+				"status": "DONE"
+			},
+			{
+				"title": "News Listing",
+				"href": "/pages/news/listing.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Courses",
+		"pages": [
+			{
+				"title": "Listing (Workplaces)",
+				"href": "/pages/courses/listing/workplaces.html",
+				"status": "DONE",
+				"vue": true
+			},
+			{
+				"title": "Detail (Product version)",
+				"href": "/pages/courses/detail/detail.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail (Search version)",
+				"href": "/pages/courses/detail/detail-search.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail (Instructor version)",
+				"href": "/pages/courses/detail/detail-instructor.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Screening page",
+				"href": "/pages/courses/screening/screening.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Screening enquiry page",
+				"href": "/pages/courses/screening/screening-enquiry.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Screening rejection page",
+				"href": "/pages/courses/screening/screening-reject.html",
+				"status": "DONE"
+			},
+			{
+				"href": "/pages/courses/course-enquiry.html",
+				"title": "Course enquiry page",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Book a course",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/courses/listing/instructor-member.html",
+				"status": "IN PROGRESS",
+				"vue": true
+			},
+			{
+				"title": "Tutor",
+				"href": "/pages/courses/tutor/profile.html",
+				"status": "IN PROGRESS",
+				"vue": true
+			},
+			{
+				"title": "Booking - (Checkout)",
+				"href": "/pages/courses/booking/booking.html?courseId=123456&attendees=4",
+				"status": "IN PROGRESS",
+				"vue": true
+			},
+			{
+				"title": "Confirmation",
+				"href": "/pages/courses/booking/confirmation.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Course Finder",
+		"pages": [
+			{
+				"title": "Courses Finder - Step 1",
+				"href": "/pages/course-finder/index.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 2 (Work)",
+				"href": "/pages/course-finder/work-step-2.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 3 (Work)",
+				"href": "/pages/course-finder/work-step-3.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 4 (Work)",
+				"href": "/pages/course-finder/work-step-4.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 5 (Work)",
+				"href": "/pages/course-finder/work-step-5.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 2 (public)",
+				"href": "/pages/course-finder/public-step-2.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 3 (public)",
+				"href": "/pages/course-finder/public-step-3.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Step 4 (public)",
+				"href": "/pages/course-finder/public-step-4.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Courses Finder - Results",
+				"href": "/pages/course-finder/results.html",
+				"status": "IN PROGRESS",
+				"vue": true
+			}
+		]
+	},
+	{
+		"title": "Resources",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/resources/",
+				"status": "DONE",
+				"vue": true
+			},
+			{
+				"title": "Detail",
+				"href": "/pages/resources/detail.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail (alt)",
+				"href": "/pages/resources/detail-alt.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Unlock Form",
+				"href": "/pages/resources/unlock-form.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Unlock Thankyou",
+				"href": "/pages/resources/unlock-thankyou.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Events",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/events/listing.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Listing (Expired)",
+				"href": "/pages/events/listing-expired.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail",
+				"href": "/pages/events/detail.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Press Releases",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/press-release/listing.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Campaigns",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/campaigns/listing.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail",
+				"href": "/pages/campaigns/detail.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Success stories",
+		"pages": [
+			{
+				"title": "Listing",
+				"href": "/pages/success-stories/listing.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Detail",
+				"href": "/pages/success-stories/detail.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Search Results",
+		"pages": [
+			{
+				"title": "Results",
+				"href": "/pages/search/?p=3&q=hey&categoryId=2923",
+				"status": "DONE"
+			},
+			{
+				"title": "No Results",
+				"href": "/pages/search/no-results.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "State Pages",
+		"pages": [
+			{
+				"title": "404",
+				"href": "/pages/404/index.html",
+				"status": "DONE"
+			},
+			{
+				"title": "500",
+				"href": "/pages/500/index.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Startwell",
+		"pages": [
+			{
+				"title": "Why Startwell",
+				"href": "/pages/startwell/index.html",
+				"status": "DONE"
+			},
+			{
+				"title": "About Us",
+				"href": "/pages/startwell/about-us.html",
+				"status": "DONE"
+			},
+			{
+				"title": "How Startwell works",
+				"href": "/pages/startwell/our-process.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Enquiry",
+				"href": "/pages/contact-us/contact-form.html",
+				"status": "DONE"
+			}
+		]
+	}
+]

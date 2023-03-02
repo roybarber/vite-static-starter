@@ -1,0 +1,59 @@
+@tailwind base;
+main {
+	@apply max-w-7xl relative px-4 sm:px-6 mb-16 sm:mb-24 mx-auto
+}
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.001s !important;
+		transition-duration: 0.001s !important;
+	}
+}
+
+.breakpoint {
+	background: blue;
+	position:fixed;
+	bottom:0;
+	left:0;
+	padding:5px;
+	color:white;
+	font-size:14px;
+	z-index:9999;
+	cursor:pointer;
+}
+.breakpoint::after {
+	content: "base";
+}
+@media (min-width: 640px) {
+	.breakpoint::after {
+		content: "sm";
+	}
+}
+@media (min-width: 768px) {
+	.breakpoint::after {
+		content: "md";
+	}
+}
+@media (min-width: 1024px) { 
+	.breakpoint::after {
+		content: "lg";
+	}
+}
+@media (min-width: 1280px) { 
+	.breakpoint::after {
+		content: "xl";
+	}
+}
+@media (min-width: 1536px) {
+	.breakpoint::after {
+		content: "2xl";
+	}
+}
+.grid-visual {
+	@apply fixed inset-0 w-screen h-screen max-w-[1360px] mx-auto opacity-10 pointer-events-auto z-100;
+	background: url("../img/grid.png") repeat-y;
+	background-size: 100% auto;
+	
+}

@@ -1,0 +1,300 @@
+[
+	{
+		"title": "Global Blocks",
+		"text": "Below you will find a list of layout blocks used site wide. Mainly layout like headers and footers.",
+		"blocks": [
+			{
+				"title": "Header",
+				"href": "/block-demos/globals/header.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Footer",
+				"href": "/block-demos/globals/footer.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Standard Blocks",
+		"text": "Below you will find a list of blocks used throughout Launch.",
+		"blocks": [
+			{
+				"title": "Breadcrumb",
+				"href": "/block-demos/blocks/breadcrumb.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Campaign Banner",
+				"href": "/block-demos/blocks/campaign-banner.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Dual Text Quote",
+				"href": "/block-demos/blocks/dual-text-quote-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Article Cards",
+				"href": "/block-demos/blocks/three-card-article-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Trained Goal",
+				"href": "/block-demos/blocks/trained-goal-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "FAQs",
+				"href": "/block-demos/blocks/faqs-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Newsletter",
+				"href": "/block-demos/blocks/newsletter.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Card Block",
+				"href": "/block-demos/blocks/three-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Two Card Block",
+				"href": "/block-demos/blocks/two-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Four Card Block",
+				"href": "/block-demos/blocks/four-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Picture Block",
+				"href": "/block-demos/blocks/picture-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Card Courses Block",
+				"href": "/block-demos/blocks/three-card-courses-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Hero",
+				"href": "/block-demos/blocks/hero.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Hero - Homepage",
+				"href": "/block-demos/blocks/home-hero.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Quote Slider Block",
+				"href": "/block-demos/blocks/quote-slider-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Card Resource Block",
+				"href": "/block-demos/blocks/three-card-resource-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Vacancy Listing",
+				"href": "/block-demos/blocks/vacancy-listing-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Dual Image Text & CTA Block",
+				"href": "/block-demos/blocks/dual-image-text-cta-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Related Events",
+				"href": "/block-demos/blocks/related-events-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Card Sectors Block",
+				"href": "/block-demos/blocks/three-card-sectors-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Video Block",
+				"href": "/block-demos/blocks/video-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Dual Rich Text Image Block",
+				"href": "/block-demos/blocks/dual-rich-text-image-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Icon Card Slider Block",
+				"href": "/block-demos/blocks/icon-card-slider-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Related Resources Block",
+				"href": "/block-demos/blocks/related-resources-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Card Slider Block",
+				"href": "/block-demos/blocks/three-card-slider-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Worked With Block",
+				"href": "/block-demos/blocks/worked-with.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Dual Stat Block",
+				"href": "/block-demos/blocks/dual-stat-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Image Card Block",
+				"href": "/block-demos/blocks/image-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Reviews Block",
+				"href": "/block-demos/blocks/reviews-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Three Manual Content Card Block",
+				"href": "/block-demos/blocks/three-manual-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Social Media Feedback Block",
+				"href": "/block-demos/blocks/social-feedback.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Icon Card Block",
+				"href": "/block-demos/blocks/icon-card-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Dual Rich Text Image Icon Block",
+				"href": "/block-demos/blocks/dual-rich-text-image-icon-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Startwell CTA Block",
+				"href": "/block-demos/blocks/startwell.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Logo Block",
+				"href": "/block-demos/blocks/logo-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Sector Experience",
+				"href": "/block-demos/blocks/sector-experience.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Campaign Resources Block",
+				"href": "/block-demos/blocks/campaign-resources-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Pagination",
+				"href": "/block-demos/blocks/pagination.html",
+				"status": "DONE"
+			}
+		]
+	},
+	{
+		"title": "Content blocks",
+		"text": "Below you will find a list of content blocks, specifically designed to be used in WYSIWYG areas.",
+		"blocks": [
+			{
+				"title": "Accordion",
+				"href": "/block-demos/content/accordion-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Author Intro",
+				"href": "/block-demos/content/author-intro.html",
+				"status": "DONE"
+			},
+			{
+				"title": "CTA",
+				"href": "/block-demos/content/cta-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Image",
+				"href": "/block-demos/content/image-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Image Slider",
+				"href": "/block-demos/content/image-slider-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Image Slider (With Map)",
+				"href": "/block-demos/content/image-slider-map-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Map Block",
+				"href": "/block-demos/content/map-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Rich Text (WYSIWYG Content)",
+				"href": "/block-demos/content/rich-text-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Success Story",
+				"href": "/block-demos/content/success-story-detail.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Article Author",
+				"href": "/block-demos/content/article-author.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Icon Bullet Llist",
+				"href": "/block-demos/content/bullet-list-icon-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Download Resource",
+				"href": "/block-demos/content/download-resource.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Quote",
+				"href": "/block-demos/content/quote-block.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Share",
+				"href": "/block-demos/content/share.html",
+				"status": "DONE"
+			},
+			{
+				"title": "Video",
+				"href": "/block-demos/content/video.html",
+				"status": "DONE"
+			},
+			{
+				"title": "RTE - Umbraco Stylesheet Demo",
+				"href": "/block-demos/content/rte.html",
+				"status": "DONE"
+			}
+		]
+	}
+]
