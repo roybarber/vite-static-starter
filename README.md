@@ -1,6 +1,8 @@
 ## Static Starter 2023
 Vite + Tailwind 3 + Handlebars + Vue 3 SFC + Netlify Deployment + Mockoon
 
+Demo: [https://vite-static-starter.netlify.app](https://vite-static-starter.netlify.app)
+
 Speed up your development with a complete and scalable super simple vite based build system that scaffolds the project for you. Just focus on your code. Provides a consumable mock API to build real world front ends pre-integration.
 
 ## Getting Started
