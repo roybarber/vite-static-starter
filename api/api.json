@@ -1,0 +1,78 @@
+{
+  "uuid": "ba15772d-5f06-490b-ae24-7e932080e9b0",
+  "lastMigration": 27,
+  "name": "Api",
+  "endpointPrefix": "api",
+  "latency": 0,
+  "port": 7078,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "f87a7bd6-507d-4b8a-960a-91930fcdabfe",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "example",
+      "responses": [
+        {
+          "uuid": "45f0a652-b288-4741-b488-c561b18cae63",
+          "body": "{\n  \"title\": \"Roy Barber, Mockoon is #Awesome\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "f87a7bd6-507d-4b8a-960a-91930fcdabfe"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
