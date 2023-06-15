@@ -31,9 +31,6 @@ function handlebarsOverride(options) {
 	return plugin
 }
 
-const iconD = path.resolve(__dirname, 'src/components')
-console.log(iconD)
-
 export default {
     root: 'src',
     build: {
@@ -54,16 +51,6 @@ export default {
 			writeFile: true,
 			position: 'end'
 		}),
-		// svgSprite({
-        //     input: paths.icons,
-        //     output: 'src/assets/img/',
-        //  }),
-        // createSvgIconsPlugin({
-		// 	// iconDirs: path.resolve(__dirname, paths.icons),
-		// 	iconDirs: [path.resolve(__dirname, 'src/assets/img/svg-sprite')],
-		// 	symbolId: 'icon-[dir]-[name]',
-		// 	customDomId: 'svgcontainer',
-		// }),
 		handlebarsOverride({
             partialDirectory: [
 				path.resolve(__dirname, 'src/components'),
@@ -207,5 +194,13 @@ export default {
         host: true,
         strictPort: true,
         port: 5173,
+		// Proxy mockoon server
+		proxy: {
+			'/api': {
+				target: 'http://localhost:7078',
+				changeOrigin: true,
+				secure: false
+			}
+		}
     }
 }
