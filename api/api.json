@@ -2,7 +2,7 @@
   "uuid": "ba15772d-5f06-490b-ae24-7e932080e9b0",
   "lastMigration": 27,
   "name": "Api",
-  "endpointPrefix": "api",
+  "endpointPrefix": "",
   "latency": 0,
   "port": 7078,
   "hostname": "",
