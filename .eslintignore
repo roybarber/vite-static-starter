@@ -1,6 +1,6 @@
 .vscode
 build
 node_modules
-*.handlebars
-*.hbs
 src/pages/audit/**/*
+tailwind.preset.karndeanB2C.js
+vite.config.js

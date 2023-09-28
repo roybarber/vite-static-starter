@@ -1,0 +1,17 @@
+{
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"andrejunges.Handlebars",
+		"bradlc.vscode-tailwindcss",
+		"dbaeumer.vscode-eslint",
+		"csstools.postcss",
+		"esbenp.prettier-vscode",
+		"vscode.html-language-features",
+		"wayou.vscode-todo-highlight",
+		"Vue.volar" // Vue 3 support we use Volar not Vetur
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		"octref.vetur"
+	]
+}

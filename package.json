@@ -1,10 +1,25 @@
 {
+	"name": "staticstarter",
+	"description": "HTML/CSS/JS Template Build System for Karndean",
+	"private": true,
+	"author": {
+		"name": "Roy Barber",
+		"email": "hi@roybarber.com",
+		"url": "https://roybarber.com"
+	},
+	"engines": {
+		"node": ">= 18.12.1"
+	},
 	"scripts": {
 		"dev": "vite --open",
 		"build": "vite build --emptyOutDir",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"lint": "npx eslint --ext .vue --ext .js ./src",
+		"lint:fix": "npx eslint --fix --ext .vue --ext .js ./src",
+		"prettier": "prettier --check **/*.html"
 	},
 	"devDependencies": {
+		"@mockoon/serverless": "^3.0.0",
 		"@rushstack/eslint-patch": "^1.2.0",
 		"@tailwindcss/forms": "^0.5.3",
 		"@tailwindcss/typography": "^0.5.9",
@@ -12,25 +27,27 @@
 		"@vue/eslint-config-prettier": "^7.1.0",
 		"autoprefixer": "^10.4.13",
 		"cross-env": "^7.0.3",
-		"eslint": "^8.35.0",
-		"eslint-plugin-tailwindcss": "^3.10.0",
-		"eslint-plugin-vue": "^9.9.0",
+		"eslint": "^8.48.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-hbs": "^1.0.3",
+		"eslint-plugin-html": "^7.1.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-tailwindcss": "^3.13.0",
+		"eslint-plugin-vue": "^9.15.1",
 		"glob": "8.1.0",
 		"handlebars": "^4.7.7",
 		"handlebars-layouts": "^3.1.4",
-		"lozad": "^1.16.0",
 		"path": "^0.12.7",
 		"postcss": "^8.4.21",
-		"prettier": "^2.8.4",
+		"prettier": "^3.0.3",
 		"prettier-eslint": "^15.0.1",
-		"prettier-plugin-tailwindcss": "^0.2.3",
 		"swiper": "^9.1.0",
 		"tailwindcss": "^3.2.7",
 		"vite": "^4.1.4",
-		"vite-plugin-handlebars": "^1.6.0",
-		"vue": "^3.2.47"
+		"vite-plugin-handlebars": "^1.6.0"
 	},
 	"dependencies": {
-		"@mockoon/serverless": "^3.0.0"
+		"lozad": "^1.16.0",
+		"vue": "^3.2.47"
 	}
 }

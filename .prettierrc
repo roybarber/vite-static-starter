@@ -1,0 +1,20 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 4,
+	"arrowParens": "avoid",
+	"semi": false,
+	"printWidth": 3000,
+	"singleQuote": true,
+	"useTabs": true,
+	"jsxSingleQuote": true,
+	"singleAttributePerLine": true,
+	"overrides": [
+		{
+			"files": "*.hbs",
+			"options": {
+				"parser": "glimmer",
+				"singleQuote": false
+			}
+		}
+	]
+}

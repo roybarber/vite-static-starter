@@ -1,0 +1,45 @@
+{
+	"editor.insertSpaces": false,
+	"javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.detectIndentation": false,
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+	"[handlebars]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
+		"editor.foldingStrategy": "indentation"
+	},
+	"editor.suggestSelection": "first",
+	"files.insertFinalNewline": true,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"html",
+		"vue",
+		"handlebars",
+		"hbs"
+	],
+	"editor.fontLigatures": true,
+	"eslint.format.enable": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"html.format.templating": true,
+	"editor.inlineSuggest.enabled": true,
+	"prettier.requireConfig": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": false,
+	"prettier.useEditorConfig": false,
+	"prettier.singleAttributePerLine": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.trailingComma": "none",
+	"emmet.triggerExpansionOnTab": true
+}
