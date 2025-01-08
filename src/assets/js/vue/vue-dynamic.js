@@ -1,5 +1,5 @@
 // Read all compoents we have in source to match against
-const files = import.meta.globEager('./components/*.vue')
+const files = import.meta.glob('./components/*.vue', { eager: true })
 var vueComponentInSource = []
 for (const key in files) {
 	vueComponentInSource.push(key)
