@@ -1,5 +1,5 @@
 import * as path from 'path'
-import glob from 'glob'
+import {globSync} from 'glob'
 import vue from '@vitejs/plugin-vue'
 import { default as handlebarsPlugin }  from 'vite-plugin-handlebars'
 import handlebars from 'handlebars'
@@ -19,7 +19,7 @@ const paths = {
 
 // Icon sprite setup
 var iconsInSprite = []
-glob.sync(paths.icons + '**/*.svg').forEach(function (file) {
+globSync(paths.icons + '**/*.svg').forEach(function (file) {
 	var icon = path.basename(file, path.extname(file))
 	iconsInSprite.push(icon)
 })
@@ -39,7 +39,7 @@ export default {
 		copyPublicDir: true,
 		assetsDir: 'assets',
         rollupOptions: {
-            input: glob.sync(path.resolve(__dirname, 'src/**', '*.html'), { ignore: path.resolve(__dirname, 'src/layouts/**') })
+            input: globSync(path.resolve(__dirname, 'src/**', '*.html'), { ignore: path.resolve(__dirname, 'src/layouts/**') })
         },
     },
     plugins: [

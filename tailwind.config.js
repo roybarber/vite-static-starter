@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
 	content: [
 		'./src/**/*.{ce.vue,vue,js,ts,html,hbs,jsx,tsx}',
 	],
@@ -7,3 +7,4 @@ module.exports = {
 		require('./tailwind.preset.projectname.js')
 	]
 }
+

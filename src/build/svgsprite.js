@@ -1,4 +1,4 @@
-var fs = require('fs')
+import fs from 'fs'
 import { join } from'path'
 
 const findSvgTitleReg = /<svg([^>+].*?)>/
@@ -66,9 +66,9 @@ const svgBuilder = (option) => {
 	const { path = '', prefix = '', output = '', filename = 'svg-sprite',  writeFile = false, position = 'start'} = option
 	idPrefix = prefix
 	const res = findSvgFile(path)
-	
+
 	if(writeFile){
-		fs.writeFile(join(process.cwd(), output, `/${filename}.svg`), 
+		fs.writeFile(join(process.cwd(), output, `/${filename}.svg`),
 		`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">${res.join('')}</svg>`, function(err) {
 			if(err) {
 				return console.log(err, {color: 'red'})
@@ -97,10 +97,10 @@ const svgBuilder = (option) => {
 						  	</svg>
 					`) : html
 				}
-				
+
 			}
 		}
 	}
 }
 
-exports.svgBuilder = svgBuilder
+export { svgBuilder }

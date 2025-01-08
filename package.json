@@ -2,13 +2,14 @@
 	"name": "staticstarter",
 	"description": "HTML/CSS/JS Template Build System for Karndean",
 	"private": true,
+	"type": "module",
 	"author": {
 		"name": "Roy Barber",
 		"email": "hi@roybarber.com",
 		"url": "https://roybarber.com"
 	},
 	"engines": {
-		"node": ">= 18.12.1"
+		"node": ">= 22"
 	},
 	"scripts": {
 		"dev": "vite --open",
@@ -19,35 +20,34 @@
 		"prettier": "prettier --check **/*.html"
 	},
 	"devDependencies": {
-		"@mockoon/serverless": "^3.0.0",
-		"@rushstack/eslint-patch": "^1.2.0",
-		"@tailwindcss/forms": "^0.5.3",
-		"@tailwindcss/typography": "^0.5.9",
-		"@vitejs/plugin-vue": "^4.0.0",
-		"@vue/eslint-config-prettier": "^7.1.0",
-		"autoprefixer": "^10.4.13",
+		"@rushstack/eslint-patch": "^1.10.5",
+		"@tailwindcss/forms": "^0.5.10",
+		"@tailwindcss/typography": "^0.5.16",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/eslint-config-prettier": "^10.1.0",
+		"autoprefixer": "^10.4.20",
 		"cross-env": "^7.0.3",
-		"eslint": "^8.48.0",
-		"eslint-config-prettier": "^9.0.0",
+		"eslint": "^9.17.0",
+		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-hbs": "^1.0.3",
-		"eslint-plugin-html": "^7.1.0",
-		"eslint-plugin-prettier": "^5.0.0",
-		"eslint-plugin-tailwindcss": "^3.13.0",
-		"eslint-plugin-vue": "^9.15.1",
-		"glob": "8.1.0",
-		"handlebars": "^4.7.7",
+		"eslint-plugin-html": "^8.1.2",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-tailwindcss": "^3.17.5",
+		"eslint-plugin-vue": "^9.32.0",
+		"glob": "11.0.0",
+		"handlebars": "^4.7.8",
 		"handlebars-layouts": "^3.1.4",
 		"path": "^0.12.7",
-		"postcss": "^8.4.21",
-		"prettier": "^3.0.3",
-		"prettier-eslint": "^15.0.1",
-		"swiper": "^9.1.0",
-		"tailwindcss": "^3.2.7",
-		"vite": "^4.1.4",
-		"vite-plugin-handlebars": "^1.6.0"
+		"postcss": "^8.4.49",
+		"prettier": "^3.4.2",
+		"prettier-eslint": "^16.3.0",
+		"swiper": "^11.2.0",
+		"tailwindcss": "^3.4.17",
+		"vite": "^6.0.7",
+		"vite-plugin-handlebars": "^2.0.0"
 	},
 	"dependencies": {
 		"lozad": "^1.16.0",
-		"vue": "^3.2.47"
+		"vue": "^3.5.13"
 	}
 }

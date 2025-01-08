@@ -47,7 +47,7 @@ module.exports = {
 				'blood': colors.red[600],
 				'banana': colors.amber[400],
 				'violet': colors.purple[600],
-				'green': colors.emerald[500],
+				'green': colors.emerald[500]
 			},
 			aspectRatio: {
 				'4/3': '4 / 3', // class name: aspect-4/3
@@ -76,9 +76,9 @@ module.exports = {
 					},
 					'100%': {
 						transform: 'translate3d(0, 0, 0)',
-						opacity: '1' 
+						opacity: '1'
 					}
-				},
+				}
 			},
 			animation: {
 				fadein: 'fadein 3000ms',
@@ -90,8 +90,8 @@ module.exports = {
 				70: '70',
 				80: '80',
 				90: '90',
-				100: '100',
-			},
+				100: '100'
+			}
 			//typography: ({ theme }) => ({
 				// Default values can be found here: https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js
 				//base: {
@@ -110,8 +110,7 @@ module.exports = {
 			className: 'wysiwyg' // overide the container class to be .wysiwyg see docs: https://tailwindcss.com/docs/typography-plugin
 		}),
 		require('@tailwindcss/forms')({
-			strategy: 'base', // only generate global styles, see docs: https://github.com/tailwindlabs/tailwindcss-forms
+			strategy: 'base' // only generate global styles, see docs: https://github.com/tailwindlabs/tailwindcss-forms
 		})
 	]
-	
 }
